@@ -1,0 +1,49 @@
+* {
+    box-sizing: content-box;
+}
+
+nav {
+    float: left;
+    border: 3px solid red;
+    width: 20%;
+    height: 20%;
+}
+
+div {
+float: none;
+border: 3px solid   blue;
+width: 100%;
+height: 100%;
+}
+
+footer {
+    top: 700px;
+    position: fixed;
+    float: none;
+    border: 3px solid green;
+    width: 100%;
+}
+
+.sections {
+    border: 3px solid yellow;
+    width: 100%;
+    height: 100%;
+}
+section {
+    border: 2px solid pink;
+    float: right;
+    box-sizing: border-box;
+    width: 78%;
+  }
+
+  .girraffe {
+    border: 5px dotted black;
+    width: 600px;
+    height: 600px;
+    background-image: url(https://r.hswstatic.com/w_907/gif/giraffe-spots.jpg);
+    float: right;
+    background-attachment: scroll;
+    background-clip: padding-box;
+
+  }
+ 
