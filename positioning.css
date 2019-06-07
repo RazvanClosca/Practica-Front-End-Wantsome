@@ -1,0 +1,33 @@
+.sections {
+    border: 3px solid red;
+    position: relative;
+    height: 1000px;
+  }
+ 
+  section {
+    margin-left: 200px;
+    border: 3px solid rgb(0, 26, 255);
+  }
+  
+  footer {
+    position: fixed;
+    background-color: white;
+    border: 3px solid rgb(128, 58, 0);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+  }
+  nav {
+    position: absolute;
+    border: 2px solid blueviolet;
+    color:black;
+    left: 8px;
+    width: 200px;
+    top: 8px;
+    
+  }
+  section:nth-child(odd) {
+    background-color: rgb(211, 211, 211);
+  }
