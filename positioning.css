@@ -31,6 +31,5 @@
   section:nth-child(odd) {
     background-color: rgb(211, 211, 211);
   }
-  section {
-    border: 2px solid pink;
-  }
+  
+
